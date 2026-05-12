@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://otrqdtlvstg1"]
+
+[ext_resource type="PackedScene" uid="uid://c3xank1amyk6e" path="res://addons/Nissan GTR.glb" id="1_agttn"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_m45xy"]
+
+[node name="StaticBody3D" type="StaticBody3D" unique_id=620010677]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1048378912]
+shape = SubResource("WorldBoundaryShape3D_m45xy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D" unique_id=1784910827]
+
+[node name="Nissan GTR" parent="." unique_id=219080556 instance=ExtResource("1_agttn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5074229, 0.4333861, 0.9914808)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=320603087]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.5728545, 2.2384875, -4.3652487)

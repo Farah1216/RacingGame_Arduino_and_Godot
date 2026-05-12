@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cvoy822dx3bo1"]
+
+[ext_resource type="PackedScene" uid="uid://d3nbofhnfkr1v" path="res://addons/SUV.glb" id="1_t8eya"]
+
+[node name="SUV" unique_id=499841122 instance=ExtResource("1_t8eya")]
